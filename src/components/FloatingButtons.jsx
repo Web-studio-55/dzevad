@@ -20,7 +20,7 @@ function FloatingButtons() {
       </Link>
 
       <a
-        href={`https://wa.me/385994468065?text=${encodeURIComponent(T.float_whatsapp_msg)}`}
+        href={`https://wa.me/385916214469?text=${encodeURIComponent(T.float_whatsapp_msg)}`}
         className="floating-buttons__whatsapp"
         target="_blank"
         rel="noopener noreferrer"
