@@ -11,12 +11,16 @@ function Hero() {
       <div className="hero__inner">
       <div className="hero__content">
         <div className="hero__name-row">
-          <span className="hero__name">Zahirović Dževad</span>
+          <span className="hero__name">Zahirović<br />Dževad</span>
         </div>
 
         <h1 className="hero__heading">{T.hero_heading}</h1>
 
-        <p className="hero__subtext">{T.hero_sub}</p>
+        <p className="hero__subtext">
+          {T.hero_sub.split('\n').map((line, i, arr) => (
+            <span key={i}>{line}{i < arr.length - 1 && <br />}</span>
+          ))}
+        </p>
 
         <a href="#podrucje-rada" className="hero__cta">{T.hero_cta}</a>
       </div>

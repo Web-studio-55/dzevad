@@ -96,3 +96,128 @@
   color: #c9a96e !important;
   font-weight: 600;
 }
+
+/* ── Hamburger button (hidden on desktop) ── */
+.navbar__hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  z-index: 1100;
+}
+
+.navbar__hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: #d4cfc8;
+  border-radius: 2px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.navbar__hamburger--open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.navbar__hamburger--open span:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0);
+}
+
+.navbar__hamburger--open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* ── Mobile breakpoint ── */
+@media (max-width: 768px) {
+  .navbar {
+    height: 64px;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .navbar__hamburger {
+    display: flex;
+  }
+
+  .navbar__links {
+    display: none;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 100%;
+    background-color: #1a1a1a;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    padding: 12px 0 20px;
+    border-top: 1px solid rgba(201, 169, 110, 0.2);
+    z-index: 999;
+  }
+
+  .navbar__links--open {
+    display: flex;
+  }
+
+  .navbar__separator {
+    display: none;
+  }
+
+  .navbar__link {
+    width: 100%;
+  }
+
+  .navbar__link a {
+    display: block;
+    padding: 12px 24px;
+    font-size: 0.95rem;
+    white-space: normal;
+  }
+
+  .navbar__link--phone a {
+    padding: 12px 24px;
+  }
+
+  .navbar__link--lang {
+    padding-left: 24px;
+  }
+
+  .navbar__link--lang a {
+    padding: 12px 0;
+    font-size: 1.2rem;
+  }
+
+  .navbar__link--active a {
+    border-bottom: none;
+    border-left: 3px solid #c9a96e;
+    padding-left: 21px;
+  }
+
+  .navbar__logo-name {
+    font-size: 1rem;
+  }
+
+  .navbar__logo-title {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0 16px;
+  }
+
+  .navbar__logo-icon svg {
+    width: 36px;
+    height: 36px;
+  }
+}

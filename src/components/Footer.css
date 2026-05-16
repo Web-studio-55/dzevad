@@ -34,3 +34,39 @@
   font-size: 0.82rem;
   color: rgba(255, 255, 255, 0.2);
 }
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .footer {
+    padding: 18px 20px;
+  }
+
+  .footer__links {
+    gap: 6px;
+  }
+
+  .footer__link {
+    font-size: 0.78rem;
+    padding: 4px 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 16px;
+  }
+
+  .footer__links {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .footer__sep {
+    display: none;
+  }
+
+  .footer__link {
+    width: 100%;
+    text-align: center;
+  }
+}

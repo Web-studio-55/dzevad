@@ -20,8 +20,8 @@ function Contact() {
           title="Lokacija ureda"
           src="https://maps.google.com/maps?q=Ulica+Vjekoslava+Babuki%C4%87a+5,+Zagreb,+Croatia&z=16&output=embed"
           width="100%"
-          height="100%"
-          style={{ border: 0, display: 'block' }}
+          height="500"
+          style={{ border: 0, display: 'block', width: '100%', height: '500px' }}
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"

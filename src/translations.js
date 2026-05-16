@@ -8,7 +8,7 @@ const t = {
 
     // Hero
     hero_heading: 'Stručnost. Integritet. Rezultati.',
-    hero_sub: 'Zastupam vaše interese odlučno i bez kompromisa. Pružam jasne odgovore i čvrstu zaštitu u svakom pravnom koraku.',
+    hero_sub: 'Zastupam vaše interese odlučno i bez kompromisa.\nPružam jasne odgovore i čvrstu zaštitu u svakom pravnom koraku.',
     hero_cta: 'PODRUČJE RADA',
 
     // About
@@ -174,7 +174,7 @@ const t = {
 
     // Hero
     hero_heading: 'Expertise. Integrity. Results.',
-    hero_sub: 'I represent your interests decisively and without compromise. I provide clear answers and strong protection at every legal step.',
+    hero_sub: 'I represent your interests decisively and without compromise.\nI provide clear answers and strong protection at every legal step.',
     hero_cta: 'PRACTICE AREAS',
 
     // About

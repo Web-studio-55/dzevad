@@ -53,16 +53,34 @@
 }
 
 /* Responsive */
-@media (max-width: 580px) {
+@media (max-width: 768px) {
   .pa-page__hero {
-    min-height: 320px;
+    min-height: 360px;
   }
 
   .pa-page__hero-title {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   .pa-page__hero-content {
-    padding: 60px 24px;
+    padding: 70px 24px;
+  }
+
+  .pa-page__hero-sub {
+    font-size: 0.92rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .pa-page__hero {
+    min-height: 280px;
+  }
+
+  .pa-page__hero-title {
+    font-size: 1.8rem;
+  }
+
+  .pa-page__hero-content {
+    padding: 56px 16px;
   }
 }

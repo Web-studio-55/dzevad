@@ -83,3 +83,54 @@
   transform: scale(1.22);
   transform-origin: center top;
 }
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .about {
+    padding: 60px 24px;
+  }
+
+  .about__inner {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .about__text {
+    flex: none;
+    width: 100%;
+  }
+
+  .about__name {
+    font-size: 1.8rem;
+  }
+
+  .about__photo-wrap {
+    flex: none;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .about__photo-circle {
+    width: 280px;
+    height: 360px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 48px 16px;
+  }
+
+  .about__name {
+    font-size: 1.5rem;
+  }
+
+  .about__photo-circle {
+    width: 240px;
+    height: 300px;
+  }
+
+  .about__paragraphs p {
+    font-size: 0.95rem;
+  }
+}

@@ -5,6 +5,7 @@
 
 .contact__map {
   flex: 0 0 50%;
+  height: 500px;
   min-height: 500px;
   position: relative;
 }
@@ -118,4 +119,45 @@
 .contact__cta:hover {
   background: #c9a96e;
   color: #1e1e1e;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    min-height: auto;
+  }
+
+  .contact__map {
+    flex: none;
+    width: 100%;
+    height: 300px;
+    min-height: 300px;
+  }
+
+  .contact__info {
+    flex: none;
+    width: 100%;
+    padding: 40px 24px;
+  }
+
+  .contact__title {
+    font-size: 1.7rem;
+    white-space: normal;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact__map {
+    height: 240px;
+    min-height: 240px;
+  }
+
+  .contact__info {
+    padding: 32px 16px;
+  }
+
+  .contact__title {
+    font-size: 1.5rem;
+  }
 }

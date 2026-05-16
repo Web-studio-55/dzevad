@@ -102,3 +102,43 @@
   line-height: 1.6;
   margin: 0;
 }
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .practice-areas {
+    padding: 60px 20px;
+  }
+
+  .practice-areas__grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .practice-areas__last-row {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-top: 12px;
+  }
+
+  .practice-areas__last-row .pa-card {
+    grid-column: 1;
+  }
+
+  .practice-areas__title {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .practice-areas {
+    padding: 48px 16px;
+  }
+
+  .practice-areas__title {
+    font-size: 1.5rem;
+  }
+
+  .pa-card {
+    padding: 18px;
+  }
+}

@@ -1,6 +1,7 @@
-import { Link } from 'react-router-dom'
+import { useState } from 'react'
 import { useLang } from '../context/LangContext'
 import t from '../translations'
+import ArticleModal from '../components/ArticleModal'
 import './NewsPage.css'
 
 const articleKeys = [
@@ -15,6 +16,7 @@ const articleKeys = [
 function NewsPage() {
   const { lang } = useLang()
   const T = t[lang]
+  const [openIndex, setOpenIndex] = useState(null)
 
   return (
     <div className="news-page">
@@ -37,14 +39,18 @@ function NewsPage() {
                 <span className="news-card__category">{T[a.cat]}</span>
                 <h3 className="news-card__title">{T[a.title]}</h3>
                 <p className="news-card__excerpt">{T[a.excerpt]}</p>
-                <Link to={`/vijesti/${i + 1}`} className="news-card__link">
+                <button className="news-card__link" onClick={() => setOpenIndex(i)}>
                   {T.news_read} &gt;
-                </Link>
+                </button>
               </div>
             </article>
           ))}
         </div>
       </section>
+
+      {openIndex !== null && (
+        <ArticleModal index={openIndex} onClose={() => setOpenIndex(null)} />
+      )}
 
     </div>
   )
