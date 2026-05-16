@@ -1,0 +1,98 @@
+.navbar {
+  background-color: #1a1a1a;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+}
+
+.navbar__logo-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar__logo-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.navbar__logo-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.03em;
+}
+
+.navbar__logo-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 300;
+  color: #c9a96e;
+  letter-spacing: 0.22em;
+  font-variant: small-caps;
+  text-transform: uppercase;
+}
+
+.navbar__links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.navbar__link a {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 400;
+  color: #d4cfc8;
+  letter-spacing: 0.05em;
+  padding: 4px 6px;
+  transition: color 0.2s;
+  white-space: nowrap;
+}
+
+.navbar__link a:hover {
+  color: #c9a96e;
+}
+
+.navbar__link--active a {
+  color: #ffffff;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #c9a96e;
+}
+
+.navbar__separator {
+  color: #4a4540;
+  font-size: 0.75rem;
+  user-select: none;
+}
+
+.navbar__arrow {
+  font-size: 0.7rem;
+}
+
+.navbar__link--lang a {
+  font-size: 1rem;
+  padding: 2px 4px;
+}
+
+.navbar__link--phone a {
+  white-space: nowrap;
+  color: #c9a96e !important;
+  font-weight: 600;
+}

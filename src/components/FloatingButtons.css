@@ -1,0 +1,63 @@
+.floating-buttons {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+  z-index: 9999;
+}
+
+/* Online savjetovanje pill */
+.floating-buttons__consulting {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #1c2a4a;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 12px 20px;
+  border-radius: 50px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.2s, transform 0.2s;
+  white-space: nowrap;
+}
+
+.floating-buttons__consulting:hover {
+  background-color: #243660;
+  transform: translateY(-2px);
+}
+
+.floating-buttons__icon {
+  font-size: 1rem;
+}
+
+/* WhatsApp button */
+.floating-buttons__whatsapp {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #25d366;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  padding: 14px 18px;
+  border-radius: 50px;
+  box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4);
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.floating-buttons__whatsapp:hover {
+  background-color: #1ebc59;
+  transform: translateY(-2px);
+}
+
+.floating-buttons__whatsapp-label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}

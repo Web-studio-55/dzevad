@@ -1,0 +1,104 @@
+.practice-areas {
+  background-color: #1e1e1e;
+  padding: 80px 40px;
+}
+
+.practice-areas__header {
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+.practice-areas__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+
+.practice-areas__underline {
+  width: 52px;
+  height: 2px;
+  background-color: #c9a96e;
+  margin: 0 auto 28px;
+}
+
+.practice-areas__subtitle {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.55);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.practice-areas__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.practice-areas__last-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  max-width: 1100px;
+  margin: 16px auto 0;
+}
+
+.practice-areas__last-row .pa-card {
+  grid-column: 2;
+}
+
+.pa-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border: 1px solid rgba(201, 169, 110, 0.2);
+  border-radius: 4px;
+  padding: 22px;
+  background: #262626;
+  transition: border-color 0.25s, background 0.25s;
+}
+
+.pa-card:hover {
+  border-color: #c9a96e;
+  background: #2c2c2c;
+}
+
+.pa-card__header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.pa-card__icon {
+  flex-shrink: 0;
+  width: 46px;
+  height: 46px;
+  background-color: rgba(201, 169, 110, 0.12);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: #c9a96e;
+}
+
+.pa-card__title {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.3;
+}
+
+.pa-card__desc {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.55);
+  line-height: 1.6;
+  margin: 0;
+}
