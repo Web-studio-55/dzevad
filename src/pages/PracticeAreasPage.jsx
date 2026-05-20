@@ -9,14 +9,6 @@ function PracticeAreasPage() {
 
   return (
     <div className="pa-page">
-      <section className="pa-page__hero">
-        <div className="pa-page__hero-overlay" />
-        <div className="pa-page__hero-content">
-          <h1 className="pa-page__hero-title">{T.pap_hero_title}</h1>
-          <p className="pa-page__hero-sub">{T.pap_hero_sub}</p>
-        </div>
-      </section>
-
       <PracticeAreas />
     </div>
   )
