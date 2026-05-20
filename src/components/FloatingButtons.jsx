@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { useLang } from '../context/LangContext'
 import t from '../translations'
 import './FloatingButtons.css'
-import { FaWhatsapp, FaVideo } from 'react-icons/fa'
+import { FaEnvelope, FaVideo } from 'react-icons/fa'
 
 function FloatingButtons() {
   const { lang } = useLang()
@@ -20,14 +20,15 @@ function FloatingButtons() {
       </Link>
 
       <a
-        href={`https://wa.me/385916214469?text=${encodeURIComponent(T.float_whatsapp_msg)}`}
+        href="mailto:odvjetnik.zahirovic@gmail.com"
         className="floating-buttons__whatsapp"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Javite se na WhatsApp"
+        aria-label="Pošaljite e-mail"
       >
-        <FaWhatsapp />
-        <span className="floating-buttons__whatsapp-label">{T.float_whatsapp}</span>
+        <FaEnvelope />
+        <span className="floating-buttons__whatsapp-label">
+          {lang === 'en' ? 'Email us' : 'Pošaljite e-mail'}
+          <span className="floating-buttons__whatsapp-sub">odvjetnik.zahirovic@gmail.com</span>
+        </span>
       </a>
     </div>
   )
