@@ -24,6 +24,11 @@ function ContactPage() {
       <section className="contact-page__hero">
         <h1 className="contact-page__hero-title">{T.cp_hero_title}</h1>
         <p className="contact-page__hero-sub">{T.cp_hero_sub}</p>
+        <p className="contact-page__hero-tagline">
+          {lang === 'en'
+            ? 'First consultation and basic case assessment free of charge.'
+            : 'Prvi razgovor i osnovna procjena slučaja bez naknade.'}
+        </p>
       </section>
 
       <section className="contact-page__body">
