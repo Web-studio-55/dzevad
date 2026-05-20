@@ -1,8 +1,7 @@
-import { Link } from 'react-router-dom'
 import { useLang } from '../context/LangContext'
 import t from '../translations'
 import './FloatingButtons.css'
-import { FaEnvelope, FaVideo } from 'react-icons/fa'
+import { FaEnvelope, FaPhone } from 'react-icons/fa'
 
 function FloatingButtons() {
   const { lang } = useLang()
@@ -10,14 +9,14 @@ function FloatingButtons() {
 
   return (
     <div className="floating-buttons">
-      <Link
-        to="/online-savjetovanje"
+      <a
+        href="tel:+385916214469"
         className="floating-buttons__consulting"
-        aria-label="Online savjetovanje"
+        aria-label="Pozovite nas"
       >
-        <FaVideo className="floating-buttons__icon" />
-        <span>{T.float_consulting}</span>
-      </Link>
+        <FaPhone className="floating-buttons__icon" />
+        <span>{lang === 'en' ? 'Call us' : 'Pozovite nas'}</span>
+      </a>
 
       <a
         href="mailto:odvjetnik.zahirovic@gmail.com"
