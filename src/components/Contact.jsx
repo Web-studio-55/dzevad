@@ -54,7 +54,7 @@ function Contact() {
           ))}
         </ul>
 
-        <a href="#" className="contact__cta">{T.contact_more}</a>
+
       </div>
     </section>
   )
