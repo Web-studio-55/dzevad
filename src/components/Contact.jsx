@@ -38,13 +38,22 @@ function Contact() {
 
         <ul className="contact__list">
           {contactItems.map((item, idx) => (
-            <li key={idx} className="contact__item">
-              <span className="contact__item-icon">{item.icon}</span>
-              <div className="contact__item-text">
-                <strong className="contact__item-label">{item.label}</strong>
-                <span className="contact__item-value">{item.value}</span>
-              </div>
-            </li>
+            <>
+              <li key={idx} className="contact__item">
+                <span className="contact__item-icon">{item.icon}</span>
+                <div className="contact__item-text">
+                  <strong className="contact__item-label">{item.label}</strong>
+                  <span className="contact__item-value">{item.value}</span>
+                </div>
+              </li>
+              {idx === 0 && (
+                <p key="tagline" className="contact__tagline">
+                  {lang === 'en'
+                    ? 'First consultation and basic case assessment free of charge.'
+                    : 'Prvi razgovor i osnovna procjena slučaja bez naknade.'}
+                </p>
+              )}
+            </>
           ))}
         </ul>
 

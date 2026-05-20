@@ -147,6 +147,14 @@
   }
 }
 
+.contact__tagline {
+  font-style: italic;
+  color: #c9a84c;
+  font-size: 0.92rem;
+  margin: -8px 0 12px 0;
+  padding-left: 40px;
+}
+
 @media (max-width: 480px) {
   .contact__map {
     height: 240px;
