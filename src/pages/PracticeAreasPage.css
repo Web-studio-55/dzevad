@@ -2,6 +2,10 @@
   min-height: 100vh;
 }
 
+.pa-page .practice-areas__header {
+  display: none;
+}
+
 /* Hero banner */
 .pa-page__hero {
   position: relative;

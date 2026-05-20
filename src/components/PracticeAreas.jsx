@@ -57,6 +57,12 @@ function PracticeAreas() {
 
   return (
     <section className="practice-areas" id="podrucje-rada">
+      <div className="practice-areas__header">
+        <h2 className="practice-areas__title">{T.pa_title}</h2>
+        <div className="practice-areas__underline"></div>
+        <p className="practice-areas__subtitle">{T.pa_subtitle}</p>
+      </div>
+
       <div className="practice-areas__grid">
         {areas.slice(0, 9).map((area, i) => (
           <PracticeAreaCard key={i} icon={area.icon} title={area.title} desc={area.desc} />
