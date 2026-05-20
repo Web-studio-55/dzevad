@@ -291,3 +291,10 @@
     height: 240px;
   }
 }
+
+.contact-page__tagline {
+  font-style: italic;
+  color: #c9a84c;
+  font-size: 0.92rem;
+  margin: -8px 0 20px 0;
+}

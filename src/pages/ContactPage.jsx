@@ -37,6 +37,12 @@ function ContactPage() {
 
           <p className="contact-page__desc">{T.cp_desc}</p>
 
+          <p className="contact-page__tagline">
+            {lang === 'en'
+              ? 'First consultation and basic case assessment free of charge.'
+              : 'Prvi razgovor i osnovna procjena slučaja bez naknade.'}
+          </p>
+
           <ul className="contact-page__details">
             <li className="contact-page__detail-item">
               <span className="contact-page__detail-icon"><FaMapMarkerAlt /></span>
