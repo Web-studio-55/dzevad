@@ -9,13 +9,28 @@ function ContactPage() {
   const T = t[lang]
 
   const [form, setForm] = useState({ name: '', email: '', phone: '', message: '' })
+  const [status, setStatus] = useState('')
 
   const handleChange = e => setForm({ ...form, [e.target.name]: e.target.value })
 
-  const handleSubmit = e => {
+  const handleSubmit = async e => {
     e.preventDefault()
-    alert(T.cp_alert)
-    setForm({ name: '', email: '', phone: '', message: '' })
+    setStatus('sending')
+    try {
+      const res = await fetch('https://formspree.io/f/xojbwelq', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify(form),
+      })
+      if (res.ok) {
+        setStatus('success')
+        setForm({ name: '', email: '', phone: '', message: '' })
+      } else {
+        setStatus('error')
+      }
+    } catch {
+      setStatus('error')
+    }
   }
 
   return (
@@ -120,7 +135,25 @@ function ContactPage() {
                 required
               />
             </div>
-            <button type="submit" className="contact-page__submit">{T.cp_submit}</button>
+            <button type="submit" className="contact-page__submit" disabled={status === 'sending'}>
+              {status === 'sending'
+                ? (lang === 'en' ? 'Sending...' : 'Slanje...')
+                : T.cp_submit}
+            </button>
+            {status === 'success' && (
+              <p className="contact-page__form-success">
+                {lang === 'en'
+                  ? '✅ Your message has been sent! We will get back to you shortly.'
+                  : '✅ Vaša poruka je poslana! Javit ćemo vam se što prije.'}
+              </p>
+            )}
+            {status === 'error' && (
+              <p className="contact-page__form-error">
+                {lang === 'en'
+                  ? '❌ Something went wrong. Please try again or contact us directly.'
+                  : '❌ Nešto je pošlo po krivu. Molimo pokušajte ponovo ili nas kontaktirajte izravno.'}
+              </p>
+            )}
           </form>
         </div>
       </section>
