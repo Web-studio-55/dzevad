@@ -50,10 +50,6 @@ function ContactPage() {
 
         <div className="contact-page__info">
           <div className="contact-page__section-label">{T.cp_label}</div>
-          <h2 className="contact-page__section-title">
-            Zahirović Dževad
-            <span className="contact-page__title-line" />
-          </h2>
 
           <p className="contact-page__desc">{T.cp_desc}</p>
 
