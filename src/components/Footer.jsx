@@ -9,6 +9,7 @@ function Footer() {
 
   return (
     <footer className="footer">
+      <div className="footer__phone">+385 91 621 4469</div>
       <div className="footer__links">
         <Link to="/pravila-privatnosti" className="footer__link">{T.footer_privacy}</Link>
         <span className="footer__sep">|</span>
