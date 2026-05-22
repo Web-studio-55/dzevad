@@ -17,6 +17,7 @@ const t = {
     about_p1: 'Strankama osiguravam brzu reakciju, jasnu strategiju i potpunu predanost svakom predmetu.',
     about_p2: 'Fokus je na rješenju i rezultatu, uz maksimalnu diskreciju i profesionalnost.',
     about_p3: 'Dostupan za hitne situacije i pravovremeno djelovanje.',
+    about_p4: 'Svako odgađanje može stvoriti dodatne probleme.',
 
     // Practice Areas section
     pa_title: 'Područje rada',
@@ -186,6 +187,7 @@ const t = {
     about_p1: 'I ensure clients receive a rapid response, a clear strategy, and full dedication to every case.',
     about_p2: 'The focus is on solutions and results, with maximum discretion and professionalism.',
     about_p3: 'Available for urgent situations and timely action.',
+    about_p4: 'Every delay can create additional problems.',
 
     // Practice Areas section
     pa_title: 'Practice Areas',

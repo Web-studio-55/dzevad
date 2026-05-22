@@ -22,6 +22,7 @@ function About() {
             <p>{T.about_p1}</p>
             <p>{T.about_p2}</p>
             <p>{T.about_p3}</p>
+            <p>{T.about_p4}</p>
           </div>
         </div>
 
