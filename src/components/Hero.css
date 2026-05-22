@@ -86,7 +86,10 @@
 
 .hero__subtext--highlight strong {
   font-weight: 800;
-  color: #ffffff;
+  color: #1a1a1a;
+  background-color: #c9a96e;
+  padding: 1px 5px;
+  border-radius: 2px;
 }
 
 .hero__subtext--secondary {
