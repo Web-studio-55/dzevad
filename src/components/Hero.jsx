@@ -18,7 +18,7 @@ function Hero() {
 
         <p className="hero__subtext">
           {T.hero_sub.split('\n').map((line, i, arr) => (
-            <span key={i} className={i === arr.length - 1 ? 'hero__subtext--highlight' : ''}>{line}{i < arr.length - 1 && <br />}</span>
+            <span key={i} className={i === 0 ? 'hero__subtext--highlight' : 'hero__subtext--secondary'}>{line}{i < arr.length - 1 && <br />}</span>
           ))}
         </p>
 

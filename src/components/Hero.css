@@ -80,9 +80,15 @@
 
 .hero__subtext--highlight {
   display: inline-block;
-  margin-top: 0.75rem;
   color: #c9a96e;
   font-weight: 500;
+}
+
+.hero__subtext--secondary {
+  display: inline-block;
+  margin-top: 0.75rem;
+  color: rgba(255, 255, 255, 0.55);
+  font-weight: 400;
 }
 
 .hero__cta {
