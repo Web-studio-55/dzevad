@@ -7,8 +7,8 @@ const t = {
     nav_contact: 'Kontakt',
 
     // Hero
-    hero_heading: 'Stručnost. Integritet. Rezultati.',
-    hero_sub: 'Zastupam vaše interese odlučno i bez kompromisa.\nPružam jasne odgovore i čvrstu zaštitu u svakom pravnom koraku.',
+    hero_heading: 'Predani Vašem pravu – bez kompromisa.',
+    hero_sub: 'Stručna i učinkovita pravna pomoć u području sporova, nekretnina, obiteljskog, nasljednog i kaznenog prava.\nPrvi razgovor i osnovna procjena slučaja bez naknade.',
     hero_cta: 'PODRUČJE RADA',
 
     // About
@@ -51,6 +51,7 @@ const t = {
     // Floating buttons
     float_consulting: 'Online savjetovanje',
     float_whatsapp: 'WhatsApp',
+    float_whatsapp_sub: 'prvo savjetovanje bez naknade',
     float_whatsapp_msg: 'Pozdrav, zanima me pravno savjetovanje. Možete li mi pomoći?',
 
     // Footer
@@ -154,6 +155,7 @@ const t = {
     os_contact_heading: 'Kontakt',
     os_addr_label: 'Adresa ureda',
     os_form_heading: 'Zatražite savjetovanje',
+    os_form_tagline: 'Pošaljite upit — prvi informativni razgovor je bez naknade.',
     os_form_sub: 'Ispunite obrazac i javit ćemo vam se u najkraćem mogućem roku za dogovor termina i načina savjetovanja.',
     os_name_label: 'Ime i prezime *',
     os_name_ph: 'Vaše ime i prezime',
@@ -173,8 +175,8 @@ const t = {
     nav_contact: 'Contact',
 
     // Hero
-    hero_heading: 'Expertise. Integrity. Results.',
-    hero_sub: 'I represent your interests decisively and without compromise.\nI provide clear answers and strong protection at every legal step.',
+    hero_heading: 'Dedicated to Your Rights – Without Compromise.',
+    hero_sub: 'Expert and efficient legal assistance in disputes, real estate, family, inheritance and criminal law.\nFirst consultation and initial case assessment free of charge.',
     hero_cta: 'PRACTICE AREAS',
 
     // About
@@ -217,6 +219,7 @@ const t = {
     // Floating buttons
     float_consulting: 'Online Consultation',
     float_whatsapp: 'WhatsApp',
+    float_whatsapp_sub: 'first consultation free of charge',
     float_whatsapp_msg: 'Hello, I am interested in legal consultation. Can you help me?',
 
     // Footer
@@ -320,6 +323,7 @@ const t = {
     os_contact_heading: 'Contact',
     os_addr_label: 'Office Address',
     os_form_heading: 'Request a consultation',
+    os_form_tagline: 'Send an enquiry — the first informational call is free of charge.',
     os_form_sub: 'Fill in the form and we will contact you as soon as possible to arrange a time and method for the consultation.',
     os_name_label: 'Full name *',
     os_name_ph: 'Your full name',

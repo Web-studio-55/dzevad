@@ -78,6 +78,13 @@
   max-width: 520px;
 }
 
+.hero__subtext--highlight {
+  display: inline-block;
+  margin-top: 0.75rem;
+  color: #c9a96e;
+  font-weight: 500;
+}
+
 .hero__cta {
   display: inline-block;
   background: transparent;
