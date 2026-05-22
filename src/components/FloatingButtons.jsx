@@ -20,7 +20,7 @@ function FloatingButtons() {
           <FaPhone className="floating-buttons__icon" />
           <span className="floating-buttons__consulting-text">
             <span>{lang === 'en' ? 'Call us now' : 'Nazovite odmah'}</span>
-            <span className="floating-buttons__consulting-sub">{lang === 'en' ? 'First call, no obligation' : 'Prvi razgovor bez obveze'}</span>
+            <span className="floating-buttons__consulting-sub">{lang === 'en' ? 'First call, free of charge' : 'Prvi razgovor bez naknade'}</span>
           </span>
         </a>
       ) : (
@@ -28,7 +28,7 @@ function FloatingButtons() {
           <FaPhone className="floating-buttons__icon" />
           <span className="floating-buttons__consulting-text">
             <span>{lang === 'en' ? 'Call us now' : 'Nazovite odmah'}</span>
-            <span className="floating-buttons__consulting-sub">{lang === 'en' ? 'First call, no obligation' : 'Prvi razgovor bez obveze'}</span>
+            <span className="floating-buttons__consulting-sub">{lang === 'en' ? 'First call, free of charge' : 'Prvi razgovor bez naknade'}</span>
           </span>
         </div>
       )}
