@@ -56,16 +56,31 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
-  border: 1px solid rgba(201, 169, 110, 0.2);
+  border: 1px solid rgba(201, 169, 110, 0.35);
   border-radius: 4px;
   padding: 22px;
-  background: #262626;
-  transition: border-color 0.25s, background 0.25s;
+  background: #2a2a2a;
+  transition: border-color 0.25s, background 0.25s, transform 0.25s, box-shadow 0.25s;
 }
 
 .pa-card:hover {
   border-color: #c9a96e;
-  background: #2c2c2c;
+  background: #312d25;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(201, 169, 110, 0.18);
+}
+
+.pa-card:hover .pa-card__icon {
+  background-color: #c9a96e;
+  color: #1a1a1a;
+}
+
+.pa-card:hover .pa-card__title {
+  color: #c9a96e;
+}
+
+.pa-card:hover .pa-card__desc {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .pa-card__header {
@@ -78,13 +93,14 @@
   flex-shrink: 0;
   width: 46px;
   height: 46px;
-  background-color: rgba(201, 169, 110, 0.12);
+  background-color: rgba(201, 169, 110, 0.15);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.2rem;
   color: #c9a96e;
+  transition: background-color 0.25s, color 0.25s;
 }
 
 .pa-card__title {
@@ -93,14 +109,16 @@
   font-weight: 700;
   color: #ffffff;
   line-height: 1.3;
+  transition: color 0.25s;
 }
 
 .pa-card__desc {
   font-family: 'Lato', sans-serif;
   font-size: 0.82rem;
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.6);
   line-height: 1.6;
   margin: 0;
+  transition: color 0.25s;
 }
 
 /* ── Responsive ── */
