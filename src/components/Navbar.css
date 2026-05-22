@@ -32,10 +32,11 @@
 
 .navbar__logo-name {
   font-family: 'Playfair Display', serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: #ffffff;
   letter-spacing: 0.03em;
+  white-space: nowrap;
 }
 
 .navbar__logo-title {

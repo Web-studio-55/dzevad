@@ -47,7 +47,7 @@ function Navbar() {
           </svg>
         </div>
         <div className="navbar__logo-text">
-          <span className="navbar__logo-name">Zahirović<br />Dževad</span>
+          <span className="navbar__logo-name">Zahirović Dževad</span>
           <span className="navbar__logo-title">ODVJETNIK</span>
         </div>
       </Link>
