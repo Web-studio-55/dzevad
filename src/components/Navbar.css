@@ -98,6 +98,8 @@
   color: #ffffff !important;
   font-weight: 400;
   font-size: 0.82rem;
+  letter-spacing: 0.05em;
+  font-family: 'Lato', sans-serif;
 }
 
 /* ── Hamburger button (hidden on desktop) ── */
