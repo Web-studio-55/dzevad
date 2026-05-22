@@ -6,7 +6,7 @@ function CookiesPage() {
 
       <section className="privacy-page__hero">
         <h1 className="privacy-page__hero-title">Pravila o kolačićima</h1>
-        <p className="privacy-page__hero-sub">Zadnje ažuriranje: 18. kolovoza 2025.</p>
+        <p className="privacy-page__hero-sub">Zadnje ažuriranje: 22.05.2026.</p>
       </section>
 
       <div className="privacy-page__content">
