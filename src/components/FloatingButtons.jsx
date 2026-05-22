@@ -17,12 +17,18 @@ function FloatingButtons() {
           aria-label="Pozovite nas"
         >
           <FaPhone className="floating-buttons__icon" />
-          <span>{lang === 'en' ? 'Call us now' : 'Nazovite odmah'}</span>
+          <span className="floating-buttons__consulting-text">
+            <span>{lang === 'en' ? 'Call us now' : 'Nazovite odmah'}</span>
+            <span className="floating-buttons__consulting-sub">{lang === 'en' ? 'Response within 24h' : 'Odgovor u roku 24h'}</span>
+          </span>
         </a>
       ) : (
         <div className="floating-buttons__consulting">
           <FaPhone className="floating-buttons__icon" />
-          <span>{lang === 'en' ? 'Call us now' : 'Nazovite odmah'}</span>
+          <span className="floating-buttons__consulting-text">
+            <span>{lang === 'en' ? 'Call us now' : 'Nazovite odmah'}</span>
+            <span className="floating-buttons__consulting-sub">{lang === 'en' ? 'Response within 24h' : 'Odgovor u roku 24h'}</span>
+          </span>
         </div>
       )}
 

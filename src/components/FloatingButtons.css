@@ -36,6 +36,19 @@
   font-size: 1rem;
 }
 
+.floating-buttons__consulting-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.floating-buttons__consulting-sub {
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  opacity: 0.75;
+}
+
 /* WhatsApp button */
 .floating-buttons__whatsapp {
   display: flex;
@@ -60,4 +73,14 @@
   font-size: 0.82rem;
   font-weight: 700;
   letter-spacing: 0.04em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.floating-buttons__whatsapp-sub {
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  opacity: 0.85;
 }
