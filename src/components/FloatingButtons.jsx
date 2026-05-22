@@ -26,7 +26,6 @@ function FloatingButtons() {
         <FaEnvelope />
         <span className="floating-buttons__whatsapp-label">
           {lang === 'en' ? 'Email us' : 'Pošaljite e-mail'}
-          <span className="floating-buttons__whatsapp-sub">odvjetnik.zahirovic@gmail.com</span>
         </span>
       </a>
     </div>
