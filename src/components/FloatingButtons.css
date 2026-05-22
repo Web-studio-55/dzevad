@@ -5,35 +5,35 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 12px;
+  gap: 10px;
   z-index: 9999;
 }
 
-/* Online savjetovanje pill */
+/* Phone button */
 .floating-buttons__consulting {
   display: flex;
   align-items: center;
-  gap: 10px;
-  background-color: #1c2a4a;
-  color: #ffffff;
+  gap: 12px;
+  background-color: #c9a96e;
+  color: #1a1a1a;
   font-family: 'Lato', sans-serif;
-  font-size: 0.82rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  padding: 12px 20px;
-  border-radius: 50px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  font-size: 0.88rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  padding: 13px 22px;
+  border-radius: 4px;
+  box-shadow: 0 4px 16px rgba(201, 169, 110, 0.45);
   transition: background-color 0.2s, transform 0.2s;
   white-space: nowrap;
 }
 
 .floating-buttons__consulting:hover {
-  background-color: #243660;
+  background-color: #b8944f;
   transform: translateY(-2px);
 }
 
 .floating-buttons__icon {
-  font-size: 1rem;
+  font-size: 1.05rem;
 }
 
 .floating-buttons__consulting-text {
@@ -43,44 +43,46 @@
 }
 
 .floating-buttons__consulting-sub {
-  font-size: 0.68rem;
-  font-weight: 400;
+  font-size: 0.7rem;
+  font-weight: 500;
   letter-spacing: 0.02em;
   opacity: 0.75;
 }
 
-/* WhatsApp button */
+/* Email button */
 .floating-buttons__whatsapp {
   display: flex;
   align-items: center;
-  gap: 8px;
-  background-color: #25d366;
-  color: #ffffff;
+  gap: 12px;
+  background-color: #1a1a1a;
+  color: #c9a96e;
   font-family: 'Lato', sans-serif;
-  font-size: 1.5rem;
-  padding: 14px 18px;
-  border-radius: 50px;
-  box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4);
-  transition: background-color 0.2s, transform 0.2s;
+  font-size: 1.1rem;
+  padding: 13px 22px;
+  border-radius: 4px;
+  border: 2px solid #c9a96e;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.2s, color 0.2s, transform 0.2s;
 }
 
 .floating-buttons__whatsapp:hover {
-  background-color: #1ebc59;
+  background-color: #c9a96e;
+  color: #1a1a1a;
   transform: translateY(-2px);
 }
 
 .floating-buttons__whatsapp-label {
-  font-size: 0.82rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
+  font-size: 0.88rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
 .floating-buttons__whatsapp-sub {
-  font-size: 0.68rem;
-  font-weight: 400;
+  font-size: 0.7rem;
+  font-weight: 500;
   letter-spacing: 0.02em;
   opacity: 0.85;
 }
