@@ -17,7 +17,6 @@ function FloatingButtons() {
           aria-label="Pozovite nas"
         >
           <FaPhone className="floating-buttons__icon" />
-          <FaPhone className="floating-buttons__icon" />
           <span className="floating-buttons__consulting-text">
             <span>{lang === 'en' ? 'Call us now' : 'Nazovite odmah'}</span>
             <span className="floating-buttons__consulting-sub">{lang === 'en' ? 'First call, free of charge' : 'Prvi razgovor bez naknade'}</span>
