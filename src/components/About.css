@@ -65,6 +65,11 @@
   border-left: 3px solid #c9a96e;
 }
 
+.about__paragraphs p:last-child {
+  border-left: none;
+  padding-left: 0;
+}
+
 .about__photo-wrap {
   flex: 0 0 42%;
   display: flex;
