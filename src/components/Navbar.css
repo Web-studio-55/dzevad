@@ -96,7 +96,8 @@
 .navbar__link--phone a {
   white-space: nowrap;
   color: #ffffff !important;
-  font-weight: 600;
+  font-weight: 400;
+  font-size: 0.82rem;
 }
 
 /* ── Hamburger button (hidden on desktop) ── */
