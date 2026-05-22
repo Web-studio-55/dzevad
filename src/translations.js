@@ -38,7 +38,7 @@ const t = {
     pa_8_title: 'Prekršajno pravo',
     pa_8_desc: 'Zastupanje stranaka pred prekršajnim sudovima i upravnim tijelima u svim vrstama prekršajnih postupaka.',
     pa_9_title: 'Nekretnine i zemljišnoknjižno pravo',
-    pa_9_desc: 'Pravna pomoć pri kupoprodaji nekretnina, ugovorima o najmu i sređivanju zemljišnoknjižnog stanja.',
+    pa_9_desc: 'Problemi s uknjižbom, suvlasništvom, diobom ili neuređenim vlasništvom? Takvi predmeti zahtijevaju brz i precizan pravni pristup — prije nego nastane veći problem.',
     pa_10_title: 'Zaštita intelektualnog vlasništva',
     pa_10_desc: 'Zaštita autorskih prava, patenata, žigova i ostalih oblika intelektualnog vlasništva.',
 
@@ -207,7 +207,7 @@ const t = {
     pa_8_title: 'Misdemeanour Law',
     pa_8_desc: 'Representation before misdemeanour courts and administrative bodies in all types of misdemeanour proceedings.',
     pa_9_title: 'Real Estate & Land Registry',
-    pa_9_desc: 'Legal assistance with property transactions, lease agreements, and land registry regularisation.',
+    pa_9_desc: 'Issues with land registration, co-ownership, division or unresolved ownership? Such cases require a swift and precise legal approach — before the problem grows.',
     pa_10_title: 'Intellectual Property',
     pa_10_desc: 'Protection of copyrights, patents, trademarks, and other forms of intellectual property.',
 
