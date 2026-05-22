@@ -15,21 +15,21 @@ import {
 } from 'react-icons/fa'
 
 const icons = [
-  <FaUsers />, <FaSearch />, <FaBalanceScale />, <FaFileContract />,
+  <FaUsers />, <FaBuilding />, <FaBalanceScale />, <FaFileContract />,
   <FaHandshake />, <FaFileAlt />, <FaGavel />, <FaHome />,
-  <FaBuilding />, <FaLightbulb />,
+  <FaSearch />, <FaLightbulb />,
 ]
 
 const areaKeys = [
   ['pa_1_title', 'pa_1_desc'],
-  ['pa_2_title', 'pa_2_desc'],
+  ['pa_9_title', 'pa_9_desc'],
   ['pa_3_title', 'pa_3_desc'],
   ['pa_4_title', 'pa_4_desc'],
   ['pa_5_title', 'pa_5_desc'],
   ['pa_6_title', 'pa_6_desc'],
   ['pa_7_title', 'pa_7_desc'],
   ['pa_8_title', 'pa_8_desc'],
-  ['pa_9_title', 'pa_9_desc'],
+  ['pa_2_title', 'pa_2_desc'],
   ['pa_10_title', 'pa_10_desc'],
 ]
 
