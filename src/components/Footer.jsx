@@ -33,6 +33,9 @@ function Footer() {
         <span className="footer__sep">|</span>
         <a href="#" className="footer__link" onClick={e => e.preventDefault()}>{T.footer_settings}</a>
       </div>
+      <div className="footer__copy">
+        © {new Date().getFullYear()} Odvjetnik Dževad Zahirović. {lang === 'en' ? 'All rights reserved.' : 'Sva prava pridržana.'}
+      </div>
     </footer>
   )
 }
