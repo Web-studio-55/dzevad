@@ -41,6 +41,14 @@
   white-space: nowrap;
 }
 
+.about__tagline {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-style: italic;
+  color: #c9a96e;
+  line-height: 1.6;
+}
+
 .about__paragraphs {
   display: flex;
   flex-direction: column;

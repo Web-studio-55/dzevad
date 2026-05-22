@@ -16,6 +16,8 @@ function About() {
             <span className="about__name">Zahirović Dževad</span>
           </div>
 
+          <p className="about__tagline">{T.about_tagline}</p>
+
           <div className="about__paragraphs">
             <p>{T.about_p1}</p>
             <p>{T.about_p2}</p>
