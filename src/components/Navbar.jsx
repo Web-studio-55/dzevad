@@ -64,7 +64,7 @@ function Navbar() {
 
       <ul className={`navbar__links${menuOpen ? ' navbar__links--open' : ''}`}>
         <li className="navbar__link navbar__link--phone">
-          <a href="tel:+385916214469">+385 91 621 4469</a>
+          <span>+385 91 621 4469</span>
         </li>
         <li className="navbar__separator">|</li>
         <li className={`navbar__link ${isHome ? 'navbar__link--active' : ''}`}>

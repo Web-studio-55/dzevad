@@ -60,7 +60,7 @@ function ContactPage() {
               <span className="contact-page__detail-icon"><FaMobileAlt /></span>
               <div>
                 <strong>{T.cp_phone}</strong>
-                <a href="tel:+385916214469">+385916214469</a>
+                <span>+385916214469</span>
               </div>
             </li>
             <li className="contact-page__detail-item">

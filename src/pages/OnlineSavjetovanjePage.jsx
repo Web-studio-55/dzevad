@@ -48,7 +48,7 @@ function OnlineSavjetovanjePage() {
             </div>
             <div className="os-page__contact-item">
               <span className="os-page__contact-label">{T.contact_phone_label}</span>
-              <a href="tel:+385916214469" className="os-page__contact-value">+385 91 621 4469</a>
+              <span className="os-page__contact-value">+385 91 621 4469</span>
             </div>
             <div className="os-page__contact-item">
               <span className="os-page__contact-label">{T.os_addr_label}</span>
@@ -59,6 +59,7 @@ function OnlineSavjetovanjePage() {
 
         <div className="os-page__col os-page__col--form">
           <h2 className="os-page__heading">{T.os_form_heading}</h2>
+          <p className="os-page__tagline">{T.os_form_tagline}</p>
           <p className="os-page__text">{T.os_form_sub}</p>
 
           {sent ? (
