@@ -89,6 +89,11 @@ function ContactPage() {
         </div>
 
         <div className="contact-page__form-wrap">
+          <p className="contact-page__form-intro">
+            {lang === 'en'
+              ? <>Don't wait for the problem to escalate.<br />The sooner you act — the better the chances of success.</>
+              : <>Ne čekajte da se problem zakomplicira.<br />Što se ranije reagira — veće su šanse za uspjeh.</>}
+          </p>
           <form className="contact-page__form" onSubmit={handleSubmit}>
             <div className="contact-page__form-row">
               <div className="contact-page__field">
