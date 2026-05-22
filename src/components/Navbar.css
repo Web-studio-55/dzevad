@@ -92,9 +92,10 @@
   padding: 2px 4px;
 }
 
+.navbar__link--phone span,
 .navbar__link--phone a {
   white-space: nowrap;
-  color: #c9a96e !important;
+  color: #ffffff !important;
   font-weight: 600;
 }
 
