@@ -85,9 +85,9 @@
 }
 
 .hero__subtext--highlight strong {
-  font-weight: 700;
+  font-weight: 800;
   color: #ffffff;
-  text-shadow: 0 0 12px rgba(201, 169, 110, 0.7), 0 0 24px rgba(201, 169, 110, 0.3);
+  text-shadow: 0 0 6px rgba(201, 169, 110, 0.4);
 }
 
 .hero__subtext--secondary {
