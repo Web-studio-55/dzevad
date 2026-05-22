@@ -81,7 +81,12 @@
 .hero__subtext--highlight {
   display: inline-block;
   color: #c9a96e;
-  font-weight: 500;
+  font-weight: 400;
+}
+
+.hero__subtext--highlight strong {
+  font-weight: 800;
+  color: #e0c080;
 }
 
 .hero__subtext--secondary {

@@ -17,9 +17,13 @@ function Hero() {
         <h1 className="hero__heading">{T.hero_heading}</h1>
 
         <p className="hero__subtext">
-          {T.hero_sub.split('\n').map((line, i, arr) => (
-            <span key={i} className={i === 0 ? 'hero__subtext--highlight' : 'hero__subtext--secondary'}>{line}{i < arr.length - 1 && <br />}</span>
-          ))}
+          <span className="hero__subtext--highlight">
+            {lang === 'en'
+              ? <>Expert and efficient legal assistance in disputes, <strong>real&nbsp;estate</strong>, <strong>family</strong>, <strong>inheritance</strong> and <strong>criminal&nbsp;law</strong>.</>
+              : <>Stručna i učinkovita pravna pomoć u području <strong>sporova</strong>, <strong>nekretnina</strong>, <strong>obiteljskog</strong>, <strong>nasljednog</strong> i <strong>kaznenog&nbsp;prava</strong>.</>}
+          </span>
+          <br />
+          <span className="hero__subtext--secondary">{T.hero_sub.split('\n')[1]}</span>
         </p>
 
         <a href="#podrucje-rada" className="hero__cta">{T.hero_cta}</a>
