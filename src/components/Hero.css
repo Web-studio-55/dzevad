@@ -80,7 +80,7 @@
 
 .hero__subtext--highlight {
   display: inline-block;
-  color: #c9a96e;
+  color: #ffffff;
   font-weight: 400;
 }
 
@@ -92,8 +92,8 @@
 .hero__subtext--secondary {
   display: inline-block;
   margin-top: 0.75rem;
-  color: rgba(255, 255, 255, 0.55);
-  font-weight: 400;
+  color: #c9a96e;
+  font-weight: 700;
 }
 
 .hero__cta {
