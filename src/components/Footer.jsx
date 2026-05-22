@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { useLang } from '../context/LangContext'
 import t from '../translations'
 import './Footer.css'
+import { FaMapMarkerAlt, FaMobileAlt, FaEnvelope } from 'react-icons/fa'
 
 function Footer() {
   const { lang } = useLang()
@@ -9,7 +10,20 @@ function Footer() {
 
   return (
     <footer className="footer">
-      <div className="footer__phone">+385 91 621 4469</div>
+      <div className="footer__contact">
+        <div className="footer__contact-item">
+          <FaMapMarkerAlt className="footer__contact-icon" />
+          <span>Ulica Vjekoslava Babukića 5</span>
+        </div>
+        <div className="footer__contact-item">
+          <FaMobileAlt className="footer__contact-icon" />
+          <span>+385 91 621 4469</span>
+        </div>
+        <div className="footer__contact-item">
+          <FaEnvelope className="footer__contact-icon" />
+          <span>odvjetnik.zahirovic@gmail.com</span>
+        </div>
+      </div>
       <div className="footer__links">
         <Link to="/pravila-privatnosti" className="footer__link">{T.footer_privacy}</Link>
         <span className="footer__sep">|</span>
