@@ -10,7 +10,7 @@ function Contact() {
   const contactItems = [
     { icon: <FaMapMarkerAlt />, label: T.contact_addr_label, value: 'Ulica Vjekoslava Babukića 5' },
     { icon: <FaMobileAlt />, label: T.contact_phone_label, value: '+385992103025' },
-    { icon: <FaEnvelope />, label: 'E-mail', value: 'odvjetnik.zahirovic@gmail.com' },
+    { icon: <FaEnvelope />, label: 'E-mail', value: 'odvjetnik@zahirovic.hr' },
   ]
 
   return (

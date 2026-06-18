@@ -17,7 +17,7 @@ function Footer() {
         </div>
         <div className="footer__contact-item">
           <FaEnvelope className="footer__contact-icon" />
-          <span>odvjetnik.zahirovic@gmail.com</span>
+          <span>odvjetnik@zahirovic.hr</span>
         </div>
       </div>
       <div className="footer__links">

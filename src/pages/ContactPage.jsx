@@ -78,7 +78,7 @@ function ContactPage() {
               <span className="contact-page__detail-icon"><FaEnvelope /></span>
               <div>
                 <strong>E-mail</strong>
-                <a href="mailto:odvjetnik.zahirovic@gmail.com">odvjetnik.zahirovic@gmail.com</a>
+                <a href="mailto:odvjetnik@zahirovic.hr">odvjetnik@zahirovic.hr</a>
               </div>
             </li>
           </ul>

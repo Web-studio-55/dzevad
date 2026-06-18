@@ -33,7 +33,7 @@ function FloatingButtons() {
       )}
 
       <a
-        href="mailto:odvjetnik.zahirovic@gmail.com"
+        href="mailto:odvjetnik@zahirovic.hr"
         className="floating-buttons__whatsapp"
         aria-label="Pošaljite e-mail"
       >

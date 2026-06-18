@@ -42,8 +42,8 @@ function OnlineSavjetovanjePage() {
           <div className="os-page__contact-items">
             <div className="os-page__contact-item">
               <span className="os-page__contact-label">E-{lang === 'hr' ? 'pošta' : 'mail'}</span>
-              <a href="mailto:odvjetnik.zahirovic@gmail.com" className="os-page__contact-value">
-                odvjetnik.zahirovic@gmail.com
+              <a href="mailto:odvjetnik@zahirovic.hr" className="os-page__contact-value">
+                odvjetnik@zahirovic.hr
               </a>
             </div>
             <div className="os-page__contact-item">
