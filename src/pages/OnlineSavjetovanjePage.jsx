@@ -48,7 +48,7 @@ function OnlineSavjetovanjePage() {
             </div>
             <div className="os-page__contact-item">
               <span className="os-page__contact-label">{T.contact_phone_label}</span>
-              <span className="os-page__contact-value">+385 91 621 4469</span>
+              <span className="os-page__contact-value">+385 99 210 3025</span>
             </div>
             <div className="os-page__contact-item">
               <span className="os-page__contact-label">{T.os_addr_label}</span>

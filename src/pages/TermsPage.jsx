@@ -78,7 +78,7 @@ function TermsPage() {
         <p>Ako imate bilo kakvih pitanja o ovim Uvjetima i odredbama, možete nas kontaktirati:</p>
         <ul>
           <li>Putem e-pošte: <a href="mailto:odvjetnik.zahirovic@gmail.com">odvjetnik.zahirovic@gmail.com</a></li>
-          <li>Broj mobitela: <span>+385916214469</span></li>
+          <li>Broj mobitela: <span>+385992103025</span></li>
           <li>Adresa: Ulica Vjekoslava Babukića 5, Zagreb</li>
         </ul>
 

@@ -12,7 +12,7 @@ function FloatingButtons() {
     <div className="floating-buttons">
       {isMobile ? (
         <a
-          href="tel:+385916214469"
+          href="tel:+385992103025"
           className="floating-buttons__consulting"
           aria-label="Pozovite nas"
         >
