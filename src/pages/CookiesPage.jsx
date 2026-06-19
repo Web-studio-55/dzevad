@@ -66,10 +66,10 @@ function CookiesPage() {
         <p>Ako ne prihvatite naše kolačiće, možete imati neugodnosti prilikom korištenja web-stranice, a neke značajke možda neće ispravno funkcionirati.</p>
         <p>Ako želite izbrisati kolačiće ili uputiti svoj web preglednik da ih odbije, posjetite stranice za pomoć svog web preglednika:</p>
         <ul>
-          <li><a href="https://support.google.com/accounts/answer/32050" target="_blank" rel="noreferrer">Chrome — Google stranica za pomoć</a></li>
-          <li><a href="http://support.microsoft.com/kb/278835" target="_blank" rel="noreferrer">Internet Explorer — Microsoft stranica za pomoć</a></li>
-          <li><a href="https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored" target="_blank" rel="noreferrer">Firefox — Mozilla stranica za pomoć</a></li>
-          <li><a href="https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac" target="_blank" rel="noreferrer">Safari — Apple stranica za pomoć</a></li>
+          <li>Chrome — Google stranica za pomoć</li>
+          <li>Internet Explorer — Microsoft stranica za pomoć</li>
+          <li>Firefox — Mozilla stranica za pomoć</li>
+          <li>Safari — Apple stranica za pomoć</li>
         </ul>
 
         <h2>Kontaktirajte nas</h2>
