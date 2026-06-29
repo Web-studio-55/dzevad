@@ -22,8 +22,6 @@ function Hero() {
               ? <>Expert and efficient legal assistance in disputes, <strong>real&nbsp;estate</strong>, <strong>family</strong>, <strong>inheritance</strong> and <strong>criminal&nbsp;law</strong>.</>
               : <>Stručna i učinkovita pravna pomoć u području <strong>sporova</strong>, <strong>nekretnina</strong>, <strong>obiteljskog</strong>, <strong>nasljednog</strong> i <strong>kaznenog&nbsp;prava</strong>.</>}
           </span>
-          <br />
-          <span className="hero__subtext--secondary">{T.hero_sub.split('\n')[1]}</span>
         </p>
 
         <a href="#podrucje-rada" className="hero__cta">{T.hero_cta}</a>
