@@ -8,7 +8,7 @@ const t = {
 
     // Hero
     hero_heading: 'Predani Vašem pravu – bez kompromisa.',
-    hero_sub: 'Stručna i učinkovita pravna pomoć u području sporova, nekretnina, obiteljskog, nasljednog i kaznenog prava.\nPrvi razgovor i osnovna procjena slučaja bez naknade.',
+    hero_sub: 'Stručna i učinkovita pravna pomoć u području sporova, nekretnina, obiteljskog, nasljednog i kaznenog prava.',
     hero_cta: 'PODRUČJE RADA',
 
     // About
@@ -177,7 +177,7 @@ const t = {
 
     // Hero
     hero_heading: 'Dedicated to Your Rights – Without Compromise.',
-    hero_sub: 'Expert and efficient legal assistance in disputes, real estate, family, inheritance and criminal law.\nFirst consultation and initial case assessment free of charge.',
+    hero_sub: 'Expert and efficient legal assistance in disputes, real estate, family, inheritance and criminal law.',
     hero_cta: 'PRACTICE AREAS',
 
     // About
