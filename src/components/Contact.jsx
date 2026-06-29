@@ -36,12 +36,6 @@ function Contact() {
 
         <p className="contact__subtitle">{T.contact_sub}</p>
 
-        <p className="contact__tagline">
-          {lang === 'en'
-            ? 'First consultation and basic case assessment free of charge.'
-            : 'Prvi razgovor i osnovna procjena slučaja bez naknade.'}
-        </p>
-
         <ul className="contact__list">
           {contactItems.map((item, idx) => (
             <li key={idx} className="contact__item">
